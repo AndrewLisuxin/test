@@ -1,0 +1,2 @@
+amend a commit.
+Will the file added in the previous commit lose in this commit?
