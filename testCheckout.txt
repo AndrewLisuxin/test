@@ -1,0 +1,1 @@
+checkout [<tree-ish>] --[path]: will restore working tree with tree-ish(eg: HEAD) or index if no tree-ish specified.
