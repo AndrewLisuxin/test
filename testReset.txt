@@ -1,5 +1,5 @@
 reset can 
-1. unstage a staged file: 1) git rm --cached 2) git reset
+1. unstage a staged file: 1) git rm --cached 2) git reset HEAD --file
 2. undo a commit
 
 
