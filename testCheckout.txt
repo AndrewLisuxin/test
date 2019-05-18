@@ -1,1 +1,8 @@
-checkout [<tree-ish>] --[path]: will restore working tree with tree-ish(eg: HEAD) or index if no tree-ish specified.
+git checkout [<tree-ish>] --[path]: will restore working tree with tree-ish(eg: HEAD) or index if no tree-ish specified.
+
+checkout: must restore working tree (changes not committed)
+	1. if changes have not been staged, we can use index to override working tree:  checkout -- file
+	2. if changes have been staged but not been committed, we can use HEAD(last commit) to override working tree.
+	Notice the 3-tier structure:
+		working tree <--> staging area <--> local repository
+		staging area will be overriden before working tree.
