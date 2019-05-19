@@ -1,0 +1,5 @@
+1. diff: compare working tree with staging area
+2. diff <commit>: compare working tree with commit
+3. diff --cached <commit>: compare staging area with commit
+
+Notice: the compared file must be tracked!
