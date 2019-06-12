@@ -1,2 +1,6 @@
 problems
 1. how to solve an algorithm problem?
+- brute force
+- dynamic programming
+	- dp with memorization
+	- iterative dp
